@@ -2,3 +2,8 @@ body {
   background-color: #f1e8ca;
   font-family: 'Roboto', sans-serif;
 }
+
+.logo {
+  display: block;
+  margin: 0 auto;
+}
