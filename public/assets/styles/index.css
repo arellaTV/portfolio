@@ -9,8 +9,8 @@ body {
 }
 
 .nav-title {
-  margin: 15% 0 15% 10%;
-  font-size: 1.5em;
+  margin: 5% 0 5% 10%;
+  font-size: 2em;
   color: #dd855c;
 }
 
@@ -21,12 +21,50 @@ body {
 }
 
 .main-title {
-  margin: 0 auto;
-  width: 400px;
   text-align: center;
 }
 
 .main-title > div {
   font-size: 4em;
   font-family: blvd;
+}
+
+.applications {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 350px;
+}
+
+.header {
+  margin: 5% 0;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.application-row {
+  margin: 50px 0;
+  height: 200px;
+}
+
+.thumbnail {
+  width: 30%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  box-shadow: 5px 5px 5px #c1c1c1;
+}
+
+.thumbnail > img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  width: 68%;
+  height: 100%;
+  margin-left: 1%;
+  background-color: white;
+  float: left;
+  box-shadow: 5px 5px 5px #c1c1c1;
 }
